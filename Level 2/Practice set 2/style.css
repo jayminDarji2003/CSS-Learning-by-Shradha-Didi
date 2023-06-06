@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+main{
+    background-color: aquamarine;
+    height: 600px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 0 10px 10px 10px;
+    background-color: rgb(202, 92, 221);
+    border: 2px solid black;
+    display: inline-block;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+}
