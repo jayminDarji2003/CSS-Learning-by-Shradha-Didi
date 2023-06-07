@@ -36,6 +36,7 @@ div{
     position: static;
     /* static means by default. we cannot set (top,left,right,bottom) property to the element. */
     background-color: red;
+    /* z-index: 350; */
 }
 
 #box2{
@@ -59,12 +60,8 @@ div{
 
 #box4{
     background-color: pink;
-    /* position: fixed; */
-    /* top: 10px; */
-    /* bottom: 10px; */
-    
-    z-index: 30;
     position: sticky;
     top: 10px;
     width: 98vw;
+    z-index: 0;
 }
